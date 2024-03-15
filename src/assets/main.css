@@ -1,0 +1,9 @@
+@import url('playerpage.css');
+
+.m-player .mplayer-footer .progress {
+  max-height: 50px;
+}
+
+.player-btn {
+  max-width: 30px;
+}
