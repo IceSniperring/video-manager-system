@@ -20,9 +20,10 @@ export default {
             show:true,
             zIndex:0,
             childConfig:[
+              {functions:'暂时无法切换',selected:true},
               {functions:'蓝光1080P'},
               {functions:'超清'},
-              {functions:'高清',selected:true},
+              {functions:'高清'},
               {functions:'标清'},
             ],
             onToggle:function(data,selected,back) {
