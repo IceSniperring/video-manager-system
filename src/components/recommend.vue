@@ -31,7 +31,7 @@
       </div>
       <div class="col mt-3">
         <a href="">
-          <img src="../assets/img/test.png" width="100%" alt=",.>
+          <img src="../assets/img/test.png" width="100%" alt=",">
         </a>
       </div>
     </div>
