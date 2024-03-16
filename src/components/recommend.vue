@@ -1,7 +1,20 @@
-<script setup>
+<script>
+export default {
+  name:"button-anime",
+  data() {
+    return{
+      inAnime:true
+    }
+  }
+}
 </script>
 
 <template>
+  <button id="fresh-button" class="position-absolute btn btn-secondary"
+          type="button" role="button" >
+    <i class="bi bi-arrow-clockwise" id="fresh-icon"></i>
+    <span>刷新</span>
+  </button>
   <div class="container">
     <div id="head-container">
       <div id="recommend-and-carousel" class="d-flex flex-row">
@@ -211,8 +224,21 @@
   </div>
 </template>
 <style scoped>
+@keyframes arrow-rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width: 1200px) {
   #head-container {
+    display: none;
+  }
+
+  #fresh-button {
     display: none;
   }
 }
@@ -227,6 +253,15 @@
   height: 400px;
 }
 
+#fresh-button {
+  top:185px;
+  left:95%;
+  width:40px;
+}
+
+#fresh-icon:hover {
+  animation: .3s linear alternate arrow-rotate;
+}
 /*卡片标题*/
 .card-text {
   max-width: 12em;
@@ -274,6 +309,4 @@
   filter: brightness(60%);
   word-spacing: 2px;
 }
-
-
 </style>
