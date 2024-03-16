@@ -7,3 +7,7 @@
 .player-btn {
   max-width: 30px;
 }
+
+.container {
+  max-width: 1680px;
+}
