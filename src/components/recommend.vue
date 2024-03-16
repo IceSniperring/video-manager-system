@@ -4,7 +4,7 @@
 <template>
   <div class="container">
     <div id="recommend-and-carousel">
-      <div id="carousel-dark" class="carousel carousel slide pt-3 float-start"
+      <div id="carousel-dark" class="carousel carousel slide pt-3 float-start d-flex"
            data-bs-ride="carousel">
         <!--轮播图-->
         <div class="carousel-indicators">
@@ -39,7 +39,7 @@
         </button>
       </div>
       <div id="recommend-content" class="float-end ">
-        <div class="row  justify-content-between">
+        <div class="row justify-content-between">
           <div class="col col-sm-auto pt-3">
             <!--视频卡片-->
             <a class="d-flex justify-content-center" href="PlayPage.html">
@@ -121,7 +121,6 @@
       </div>
     </div>
     <div class="pt-5"></div>
-    <div class="pt-5"></div>
     <div id="normal-recommend">
       <div class="row justify-content-between">
         <div class="col col-sm-auto pt-3">
@@ -199,7 +198,7 @@
 
 
 #recommend-content {
-  width: 59.3%;
+  width: 58.5%;
   height: 100%;
 }
 
@@ -213,10 +212,15 @@
 
 .card {
   border: none;
+  width:100%;
+  max-width:350px;
+  min-width:250px;
 }
 
 .col img {
-  min-width: 305px;
+  width: 104%;
+  max-width: 350px;
+  min-width: 250px;
   border-radius: 4px;
   transition: ease-in-out .3s;
 }
