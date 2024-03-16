@@ -212,19 +212,16 @@
 
 .card {
   border: none;
-  width:100%;
-  max-width:350px;
-  min-width:250px;
 }
 
 .col img {
-  width:280px;
+  width:100%;
   border-radius: 4px;
   transition: ease-in-out .3s;
 }
 
 .col img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .carousel-inner {
