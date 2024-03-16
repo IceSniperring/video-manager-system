@@ -218,9 +218,7 @@
 }
 
 .col img {
-  width: 104%;
-  max-width: 350px;
-  min-width: 250px;
+  width:280px;
   border-radius: 4px;
   transition: ease-in-out .3s;
 }
