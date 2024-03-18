@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <button id="fresh-button" class="position-absolute btn btn-secondary"
+  <button id="fresh-button" class="position-absolute btn btn-light"
           type="button" role="button" >
     <i class="bi bi-arrow-clockwise" id="fresh-icon"></i>
     <span>刷新</span>
@@ -18,7 +18,7 @@ export default {
   <div class="container">
     <div id="head-container">
       <div id="recommend-and-carousel" class="d-flex flex-row">
-        <div id="carousel-dark" class="carousel slide pt-3 float-start w-75"
+        <div id="carousel-dark" class="carousel slide pt-3 float-start w-75 shadow-lg"
              data-bs-ride="carousel">
           <!--轮播图-->
           <div class="carousel-indicators">
@@ -53,7 +53,7 @@ export default {
           <div class="row justify-content-end">
             <div class="col col-sm-auto pt-3">
               <!--视频卡片-->
-              <a class="d-flex justify-content-center" href="PlayPage.html">
+              <a class="d-flex justify-content-center shadow rounded-2" href="PlayPage.html">
                 <div class="card h-50 text-white bg-dark">
                   <img src="../assets/img/hqdefault.webp" alt=",">
                   <div class="card-body">
@@ -69,7 +69,7 @@ export default {
             <div class="col col-sm-auto pt-3">
               <!--视频卡片-->
               <a class="d-flex justify-content-center" href="PlayPage.html">
-                <div class="card h-50 text-white bg-dark">
+                <div class="card h-50 text-white bg-dark shadow rounded-2">
                   <img src="../assets/img/hqdefault.webp" alt=",">
                   <div class="card-body">
                     <!--lorem是测试文本-->
@@ -84,7 +84,7 @@ export default {
             <div class="col col-sm-auto pt-3">
               <!--视频卡片-->
               <a class=" d-flex justify-content-center" href="PlayPage.html">
-                <div class="card h-50 text-white bg-dark">
+                <div class="card h-50 text-white bg-dark shadow rounded-2">
                   <img src="../assets/img/hqdefault.webp" alt=",">
                   <div class="card-body">
                     <!--lorem是测试文本-->
@@ -97,7 +97,7 @@ export default {
               </a>
             </div>
             <div class="col col-sm-auto pt-3">
-              <a class="d-flex justify-content-center" href="#">
+              <a class="d-flex justify-content-center shadow rounded-2" href="#">
                 <div class="card h-50 text-white bg-dark">
                   <img src="../assets/img/hqdefault.webp" alt=",">
                   <div class="card-body">
@@ -111,7 +111,7 @@ export default {
               </a>
             </div>
             <div class="col col-sm-auto pt-3">
-              <a class="d-flex justify-content-center" href="#">
+              <a class="d-flex justify-content-center shadow rounded-2" href="#">
                 <div class="card h-50 text-white bg-dark">
                   <img src="../assets/img/hqdefault.webp" alt=",">
                   <div class="card-body">
@@ -121,7 +121,7 @@ export default {
               </a>
             </div>
             <div class="col col-sm-auto pt-3">
-              <a class="d-flex justify-content-center" href="#">
+              <a class="d-flex justify-content-center shadow rounded-2" href="#">
                 <div class="card h-50 text-white bg-dark">
                   <img src="../assets/img/hqdefault.webp" alt=",">
                   <div class="card-body">
@@ -135,10 +135,10 @@ export default {
       </div>
     </div>
     <div class="pt-5"></div>
-    <div id="normal-recommend">
+    <div id="normal-recommend" class="shadow">
       <div class="row justify-content-between">
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -150,7 +150,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -160,7 +160,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -170,7 +170,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -180,7 +180,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -190,7 +190,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -200,7 +200,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -210,7 +210,7 @@ export default {
           </a>
         </div>
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center" href="#">
+          <a class="d-flex justify-content-center shadow rounded-2" href="#">
             <div class="card h-50 text-white bg-dark">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
@@ -245,7 +245,7 @@ export default {
 
 #recommend-and-carousel {
   width: 100%;
-  height: 400px;
+  height: 426px;
   overflow: hidden;
 }
 
