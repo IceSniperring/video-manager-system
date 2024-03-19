@@ -18,7 +18,7 @@ export default {
   <div class="container">
     <div id="head-container">
       <div id="recommend-and-carousel" class="d-flex flex-row">
-        <div id="carousel-dark" class="carousel slide pt-3 float-start w-75 shadow-lg"
+        <div id="carousel-dark" class="carousel slide pt-3 float-start w-75 shadow"
              data-bs-ride="carousel">
           <!--轮播图-->
           <div class="carousel-indicators">
@@ -281,7 +281,7 @@ export default {
 }
 
 .col img:hover {
-  transform: scale(1.03);
+  filter: brightness(60%);
 }
 
 .carousel-inner {
