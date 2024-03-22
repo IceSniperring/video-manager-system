@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="container bg-dark text-light">
+<div class="container">
   <form class="w-50 ms-auto me-auto">
     <div class="mb-3">
       <label for="Input-email-1" class="form-label">邮件</label>

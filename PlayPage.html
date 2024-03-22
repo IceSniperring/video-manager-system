@@ -5,10 +5,18 @@
     <title>Title</title>
     <link rel="stylesheet" href="./src/assets/main.css">
 </head>
-<body class="bg-dark">
+<body class="bg-light">
 <nav id="nav" class="p-5"></nav>
 <main>
-    <div id="player"></div>
+    <div class="container">
+        <div class="d-flex flex-row">
+            <div id="player-and-comment" class="d-flex flex-column w-75 pt-4">
+                <div id="player"></div>
+                <div id="comment" class="pt-5"></div>
+            </div>
+            <div id="player-recommend" class="ps-5 w-25"></div>
+        </div>
+    </div>
 </main>
 <footer id="footer"></footer>
 <script type="module" src="./src/player.js"></script>
