@@ -8,7 +8,7 @@
   </button>
   <div class="container">
     <div id="normal-recommend">
-      <div class="row justify-content-between row-cols-3 g-3 d-flex">
+      <div class="row justify-content-between row-cols-4 g-3 d-flex">
         <div class="col col-sm-auto pt-3">
           <a class="d-flex justify-content-center rounded-2" href="PlayPage.html">
             <div class="card h-50">

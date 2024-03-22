@@ -39,7 +39,8 @@
               <li class="dropdown nav-item rounded-5 m-sm-1">
                 <a class="nav-link dropdown-toggle" id="nav-class-dropdown-menu-button"
                    data-bs-toggle="dropdown"
-                   aria-expanded="false">
+                   aria-expanded="false"
+                href="#">
                   <i class="bi bi-list"></i> 分类
                 </a>
                 <ul class="dropdown-menu rounded-4 rounded-bottom-5" aria-labelledby="nav-class-dropdown-menu-button">
@@ -101,6 +102,7 @@
 #search-form:focus {
   border-color: darksalmon;
   border-width: 2px;
+  border-radius: 5px 0 0 5px;
 }
 
 #search-bar {

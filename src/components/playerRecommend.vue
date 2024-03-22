@@ -7,7 +7,7 @@
     <h4>🎉猜你喜欢</h4>
   </div>
   <div class="row row-cols-1 d-inline-block">
-    <a class="col col-sm-auto">
+    <a class="col col-sm-auto" href="#">
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4 overflow-hidden">
