@@ -4,6 +4,14 @@ import MuiPlayer from 'mui-player'
 import MuiPlayerDesktopPlugin from 'mui-player-desktop-plugin'
 
 export default {
+  data(){
+    return {
+      isActive1: false,
+      isActive2: false,
+      isActive3: false
+    }
+  },
+
   mounted() {
     const mp = new MuiPlayer({
       container: '#mui-player',
@@ -33,7 +41,6 @@ export default {
       ]
     });
   }
-
 }
 </script>
 
@@ -43,12 +50,15 @@ export default {
   </div>
   <div id="mui-player"></div>
   <div id="comment-menu" class="row pt-4">
-    <div id="thumbs-up" class="col col-2"><i class="bi bi-hand-thumbs-up-fill"></i>
+    <div id="thumbs-up" class="col col-2" @click="isActive1=!isActive1;isActive3=false">
+      <i class="bi bi-hand-thumbs-up-fill" :class="{active:isActive1&!isActive3}"></i>
       <span>点赞</span></div>
-    <div id="star" class="col col-2"><i class="bi bi-star-fill"></i>
+    <div id="star" class="col col-2"  @click="isActive2=!isActive2">
+      <i class="bi bi-star-fill" :class="{active:isActive2}"></i>
       <span>收藏</span>
     </div>
-    <div id="thumbs-down" class="col col-2"><i class="bi bi-hand-thumbs-down-fill"></i>
+    <div id="thumbs-down" class="col col-2" @click="isActive3=!isActive3;isActive1=false">
+      <i class="bi bi-hand-thumbs-down-fill" :class="{active:isActive3&!isActive1}"></i>
       <span>不喜欢</span>
     </div>
   </div>
@@ -76,5 +86,9 @@ export default {
 
   div>i:hover {
     color: orange;
+  }
+
+  div>i.active{
+    color: lightpink;
   }
 </style>

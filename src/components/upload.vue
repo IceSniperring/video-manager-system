@@ -20,14 +20,14 @@ export default {
 <template>
   <ul class="navbar-nav w-10 position-absolute border d-flex flex-column align-items-center shadow-lg" id="menu">
     <li class="nav-item mt-3 mb-3">
-      <div class="circle text-center">
+      <div class="circle text-center" :class="{active:upload_video}">
         <a class="nav-link" @click="upload_video=!upload_video;manage_upload=false" href="#">
           <i class="bi bi-upload"></i> <br>投稿
         </a>
       </div>
     </li>
     <li class="nav-item  mt-3 mb-3">
-      <div class="circle text-center">
+      <div class="circle text-center" :class="{active:manage_upload}">
         <a class="nav-link" @click="manage_upload=!manage_upload;upload_video=false" href="#">
           <i class="bi bi-journal-album"></i> <br>稿件管理
         </a>
@@ -35,6 +35,9 @@ export default {
     </li>
   </ul>
   <div class="pt-2" style="height: 700px" >
+    <div v-show="upload_video===false&manage_upload===false" class="text-center">
+      <p class="fs-3 text-secondary">请选择左侧功能</p>
+    </div>
     <div class="container w-50 align-self-center" v-show="upload_video">
       <div class="mb-3 text-center">
         <label for="formFile" class="form-label fs-4 text-secondary">请选择稿件</label>
@@ -179,7 +182,7 @@ export default {
 .circle {
   width: 70px;
   height: 70px;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
   border-radius: 40px;
   background-color: gray;;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
@@ -203,6 +206,11 @@ a i {
   top: 40%;
   border-radius: 50px;
   font-size: 14px;
+}
+
+#menu .active {
+  background-color: orange;
+  box-shadow: none;
 }
 
 input.btn {
@@ -296,7 +304,13 @@ hr {
   border-radius: 20px;
 }
 
+/*chrome内核适配*/
 ::-webkit-scrollbar {
+  width: 0;
+}
+
+/*Mozilla内核适配*/
+::-moz-scrolled-canvas {
   width: 0;
 }
 </style>
