@@ -11,7 +11,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4 overflow-hidden">
-              <img src="../assets/img/hqdefault.webp" alt="...">
+              <img src="/assets/img/hqdefault.webp" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -26,7 +26,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 overflow-hidden">
-            <img src="../assets/img/hqdefault.webp" alt="...">
+            <img src="/assets/img/hqdefault.webp" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -41,7 +41,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 overflow-hidden">
-            <img src="../assets/img/hqdefault.webp" alt="...">
+            <img src="/assets/img/hqdefault.webp" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -56,7 +56,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 overflow-hidden">
-            <img src="../assets/img/hqdefault.webp" alt="...">
+            <img src="/assets/img/hqdefault.webp" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -71,7 +71,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 overflow-hidden">
-            <img src="../assets/img/hqdefault.webp" alt="...">
+            <img src="/assets/img/hqdefault.webp" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -86,7 +86,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 overflow-hidden">
-            <img src="../assets/img/hqdefault.webp" alt="...">
+            <img src="/assets/img/hqdefault.webp" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -101,7 +101,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 overflow-hidden">
-            <img src="../assets/img/hqdefault.webp" alt="...">
+            <img src="/assets/img/hqdefault.webp" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
