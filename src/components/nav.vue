@@ -53,7 +53,7 @@
                 <a href="login.html" class="nav-link"> <i class="bi bi-person-bounding-box"></i> 账户</a>
               </li>
               <li>
-                <button type="button" class="btn rounded-5 m-1"><i class="bi bi-box-arrow-up"></i> 投稿</button>
+                <a href="uploadPage.html" type="button" class="btn rounded-5 m-1"><i class="bi bi-box-arrow-up"></i> 投稿</a>
               </li>
             </ul>
           </div>
