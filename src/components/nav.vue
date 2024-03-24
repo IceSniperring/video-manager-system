@@ -5,7 +5,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-transparent navbar-light fixed-top">
     <div class="container">
-      <a href="/index.html" class="navbar-brand" id="nav-icon">
+      <a href="/" class="navbar-brand" id="nav-icon">
         <img src="../assets/logo.png" alt="Logo" width="50px" height="50px">
       </a>
 
@@ -31,7 +31,7 @@
           <div class="border rounded-5 shadow ps-3 pe-3 pt-1 pb-1 bg-light" id="nav-menu-primary">
             <ul class="navbar-nav">
               <li class="nav-item rounded-5 m-sm-1">
-                <a href="/index.html" class="nav-link"><i class="bi bi-house"></i> 首页</a>
+                <a href="/" class="nav-link"><i class="bi bi-house"></i> 首页</a>
               </li>
               <li class="nav-item rounded-5 m-sm-1">
                 <a href="#" class="nav-link"><i class="bi bi-columns-gap"></i> 推荐</a>
@@ -50,10 +50,10 @@
                 </ul>
               </li>
               <li class="nav-item rounded-5 m-sm-1">
-                <a href="/Pages/Login/index.html" class="nav-link"> <i class="bi bi-person-bounding-box"></i> 账户</a>
+                <a href="/Pages/Login/" class="nav-link"> <i class="bi bi-person-bounding-box"></i> 账户</a>
               </li>
               <li>
-                <a href="/Pages/uploadPage/index.html" type="button" class="btn rounded-5 m-1"><i class="bi bi-box-arrow-up"></i> 投稿</a>
+                <a href="/Pages/uploadPage/" type="button" class="btn rounded-5 m-1"><i class="bi bi-box-arrow-up"></i> 投稿</a>
               </li>
             </ul>
           </div>

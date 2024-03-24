@@ -8,14 +8,13 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 library.add(fas, far, fab)
 
-
-import '../assets/main.css'
+import './assets/main.css'
 
 import { createApp } from 'vue'
-import navbar from '../components/nav.vue'
-import footer from '../components/footer.vue'
-import ad from '../components/advertisement.vue'
-import recommend from '../components/recommend.vue'
+import navbar from './components/nav.vue'
+import footer from './components/footer.vue'
+import ad from './components/advertisement.vue'
+import recommend from './components/recommend.vue'
 
 
 

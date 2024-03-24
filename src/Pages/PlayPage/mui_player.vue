@@ -56,7 +56,7 @@ export default {
     const mp = new MuiPlayer({
       container: '#mui-player',
       title: '贾玲被骂是真不冤枉啊',
-      src: '../../assets/video/贾玲被骂是真不冤枉啊.mp4', // 视频地址
+      src: '/assets/video/贾玲被骂是真不冤枉啊.mp4', // 视频地址
       themeColor:'#9fdde2', // 自定义主题颜色
       showMiniProgress:true,
       closeControlsTimer:2500,

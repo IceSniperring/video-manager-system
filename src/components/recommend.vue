@@ -10,7 +10,7 @@
     <div id="normal-recommend">
       <div class="row justify-content-between row-cols-4 g-3 d-flex">
         <div class="col col-sm-auto pt-3">
-          <a class="d-flex justify-content-center rounded-2" href="/Pages/PlayPage/index.html">
+          <a class="d-flex justify-content-center rounded-2" href="/Pages/PlayPage/">
             <div class="card h-50">
               <img src="../assets/img/hqdefault.webp" alt=",">
               <div class="card-body">
